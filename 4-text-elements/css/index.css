@@ -1,0 +1,21 @@
+.ulclass{
+    list-style-type: none;
+}
+.olclass{
+    list-style-type: upper-alpha;
+}
+
+.textclass{
+    font-size: 25px;
+    color: blue;
+    text-align: justify;
+    /* text-decoration: line-through; underline, overline, line-through */
+    text-transform: capitalize ;/*uppercase, lowercase, capitalize*/
+    text-indent: 100px;
+    letter-spacing: 5px;
+}
+.arclass{
+    direction: rtl;
+}
+
+/*start from word spacing*/
