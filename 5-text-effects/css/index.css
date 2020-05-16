@@ -1,0 +1,25 @@
+@font-face{
+    font-family: german-font;
+    src:url('../fonts/arsslan.ttf')
+}
+@font-face{
+    font-family: german1-font;
+    src: url('../fonts/khibrat.ttf');
+}
+
+.title{
+    text-shadow: 2px 2px 5px rgb(104, 97, 97);
+    background-color: rgb(200, 150, 0);
+    color: rgba(0,0,0,0.5);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.arabicTitle{
+    font-family: german-font;
+    direction: rtl;
+    font-size: 35px;
+}
+.par{
+    font-family: german1-font;
+    direction: rtl;
+}
