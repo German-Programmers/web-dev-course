@@ -1,0 +1,36 @@
+.class1{
+    color:aqua;
+    transition: color 2s ;
+}
+
+.class1:hover{
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.561);
+    color: darkgoldenrod;
+}
+.class1:hover > span{
+    color: red;
+}
+
+.inp1{
+    border:2px solid green ;
+    transition: transform 3s;
+}
+.inp1:hover{
+    transform: scaleX(1.5) ;
+}
+.inp1:invalid{
+    border:2px solid red ;
+}
+
+.list > li {
+    color: red;
+}
+.list > li:nth-child(2) {
+    color: green;
+}
+.inp2:in-range{
+    border: 2px solid green;
+}
+.inp2:out-of-range{
+    border: 2px solid red;
+}

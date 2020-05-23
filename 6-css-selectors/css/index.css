@@ -1,0 +1,6 @@
+#container1 > h2{
+    color: red;
+}
+#container1 > div > h2{
+    color: green;
+}
