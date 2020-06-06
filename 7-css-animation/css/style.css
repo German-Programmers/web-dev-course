@@ -1,0 +1,56 @@
+@keyframes rotate{
+    0%{
+        transform: rotateX(0deg);
+        background-color: aqua;
+    }
+    50%{
+        background-color: red;
+        transform: rotateX(360deg);
+    }
+    100%{
+        transform: rotateX(0deg);
+        background-color: aqua;
+    }
+}
+
+.div{
+    background-image: url('../imgs/hero.jpg');
+    /* background-repeat:no-repeat ;
+    background-size: cover; */
+    /* background-color: rgb(185, 122, 122); */
+    background-position-x:37% ;
+    background-position-y:20% ;
+    height: 80vh;
+    color: white;
+}
+
+.div > h3{
+    width: 30vw;
+    background-color: aqua;
+    height: 150px;
+    animation-name: rotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+}
+
+.someClass{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    transform: scaleY(3);
+    position: absolute;
+    left: 100px;
+}
+
+.btn{
+
+}
+.btn:hover{
+    transform: scale(1.5);
+    box-shadow: 5px 5px 5px rgba(80, 72, 72, 0.657);
+    animation-name: rotate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
